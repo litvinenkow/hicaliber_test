@@ -1,6 +1,6 @@
 <script setup>
 import {reactive, ref} from 'vue'
-import http from "utils/http";
+import http from "@/utils/http.js";
 import { ElLoading } from 'element-plus'
 
 const cleanForm = {
